@@ -8,5 +8,6 @@
 - make db-up to create container with mysql database
 - run the src/config/DLL file into your database
 - populate the schema with src/shared/infra/typeorm/seeds file
+- create your own .env file according to env example file
 - yarn dev to run application
 - yarn test to run unit test
