@@ -1,5 +1,5 @@
 import { injectable, inject } from 'tsyringe';
-import { IntegrationModelOne } from 'modules/clientes/infra/typeorm/repositories/ClientRepository';
+import { IntegrationModelOne } from 'modules/clientes/infra/typeorm/repositories/interfaces';
 import IClientRepository from '../repositories/IClientRepository';
 
 @injectable()
